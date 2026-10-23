@@ -1,9 +1,14 @@
-.venv/
-venv/
+# PyCharm
+.idea/
+
+# Python
 __pycache__/
 *.pyc
-.idea/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-.env
+
+# Virtual environment
+venv/
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
